@@ -9,7 +9,7 @@ public class Main {
 
         MenuShow m = new MenuShow();
         CRUD crudService = new CRUD();
-        //SearchService searchService = new SearchService();
+        SearchService searchService = new SearchService();
         FileService fileService = new FileService();
 
         list = fileService.readFile();
@@ -40,6 +40,10 @@ public class Main {
                         break;
 
                     case "5":
+                        searchService.searchBy(list, "name");
+                        break;
+
+                    case "6":
                         fileService.saveFile(list);
                         System.out.println("스케쥴이 파일에 저장되었습니다.");
                         break;

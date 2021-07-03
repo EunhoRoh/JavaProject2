@@ -2,7 +2,7 @@
 #Exercise Scheduler(파일 저장 기능 구현)
 1. Menu
 
-![img.png](Screenshot/img.png)
+![img.png](img.png)
 
 2. 스케쥴 조회
 
@@ -40,6 +40,10 @@
 
 ![img_11.png](Screenshot/img_11.png)
 
-7. 종료
+7. 이름 검색
+
+![img_1.png](img_1.png)
+
+8. 종료
 
 ![img_12.png](Screenshot/img_12.png)
